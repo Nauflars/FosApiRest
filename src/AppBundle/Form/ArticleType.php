@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?php
 
 namespace AppBundle\Form;
@@ -6,7 +5,7 @@ namespace AppBundle\Form;
 use Symfony\Component\Form\AbstractType;
 use Symfony\Component\Form\FormBuilderInterface;
 use Symfony\Component\OptionsResolver\OptionsResolver;
-
+//test Api 1
 class ArticleType extends AbstractType
 {
     public function buildForm(FormBuilderInterface $builder, array $options)
