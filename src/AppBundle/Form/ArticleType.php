@@ -22,5 +22,6 @@ class ArticleType extends AbstractType
         $resolver->setDefaults(array(
             'data_class' => 'AppBundle\Entity\Article'
         ));
+        //comentario2
     }
 }
