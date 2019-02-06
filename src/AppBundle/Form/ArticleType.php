@@ -19,6 +19,7 @@ class ArticleType extends AbstractType
 
     public function configureOptions(OptionsResolver $resolver)
     {
+        //comentartio
         $resolver->setDefaults(array(
             'data_class' => 'AppBundle\Entity\Article'
         ));
