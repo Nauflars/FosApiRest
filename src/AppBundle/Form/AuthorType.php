@@ -18,6 +18,7 @@ class AuthorType extends AbstractType
     
     public function configureOptions(OptionsResolver $resolver)
     {
+        //comentario
         $resolver->setDefaults(array(
             'data_class' => 'AppBundle\Entity\Author'
         ));
